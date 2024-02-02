@@ -8,9 +8,9 @@ int main() {
 
     printf("Digite a quantidade de numeros: ");
     scanf("%d", &n1);
-    printf("Digite os numeros: ");
     
     for (int i = 0; i < n1; i++) {
+        printf("Digite os numeros: ");
         scanf("%d", &vetor[i]);
     }
     Ordem_dos_numeros(vetor, n1);
